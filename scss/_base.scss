@@ -1,0 +1,25 @@
+//primary color = #1ecbe1
+//secondary color = #E1341E
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        to bottom right, 
+        #455, 
+        #c48);
+    padding-top: 3rem;
+}
